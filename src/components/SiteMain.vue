@@ -1,14 +1,14 @@
 <script>
 import Jumbotron from './JumbotronItem.vue'
 import SiteUpFooter from './SiteUpFooter.vue';
-
+import ComicsList from './ComicsList.vue';
 
 export default {
     name: "SiteMain",
     components: {
         SiteUpFooter,
         Jumbotron,
-
+        ComicsList
     }
 }
 
@@ -18,7 +18,7 @@ export default {
     <main id="site_main">
         <Jumbotron />
 
-
+        <ComicsList />
 
         <SiteUpFooter />
     </main>
