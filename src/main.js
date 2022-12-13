@@ -1,11 +1,5 @@
-import { createApp } from 'vue'
+import { createApp } from "vue";
+import "./assets/scss/style.scss";
+import App from "./App.vue";
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { } from '@fortawesome/vue-fontawesome'
-import { } from '@fortawesome/free-solid-svg-icons'
-
-import App from './App.vue'
-
-library.add()
-
-createApp(App).mount('#app')
+createApp(App).mount("#app");
